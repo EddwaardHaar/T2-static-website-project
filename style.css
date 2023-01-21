@@ -1,10 +1,16 @@
 body {
     background-color: #F5F0E3;
     color: #001F23;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, footer {
     background-color: #F8C765;
+    font-size: 20px;
+}
+
+.actbutton {
+    color: #E3492B;
 }
 
 /*Button colors
