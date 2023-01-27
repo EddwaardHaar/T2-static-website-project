@@ -16,11 +16,16 @@ header, footer {
 }
 
 .card{
+    width: 360px;
+    height: 94px;
     --bs-card-bg: none;
     --bs-card-border-color: none;
     color: white;
     border-radius: 5px;
     padding: 10px;
+}
+.card-body{
+
 }
 
 .text-bg-dark{
@@ -30,14 +35,17 @@ header, footer {
 .card-title{
     padding-left: 40px;
     padding-top: 15px;
+    
 }
 .card-text{
     padding-left: 40px;
 }
 .products{
+    height: 310px;
+    width:  300px;
     background-color: #fff;
     color: black;
-    border:2px solid  black;
+    margin-top: 5%;
 }
 .btn{
     --bs-btn-border-radius: 25px;
@@ -56,18 +64,11 @@ header, footer {
 i{
     text-align:center !important;
 }
-.products{
-    height: 310px;
-}
 .price{
     font-weight: 500;
     margin-bottom: -1%;
     /*margin-top: 15%;
     */position: absolute;
-}
-.price_num{
-    margin-top: 15%;
-    position: absolute;
 }
 .products > .card-body > .card-title{
     padding: 0px;
@@ -76,4 +77,4 @@ i{
 /*Button colors
 Green: #275A53
 Red: #E3492B
-*/
+*/  
