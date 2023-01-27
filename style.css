@@ -30,7 +30,7 @@ header, footer {
     text-decoration: none;
 }
 
-.card {
+.landing-card {
     width: 300px;
     height: 300px;
     margin-top: 50px;
@@ -41,14 +41,14 @@ header, footer {
 
 }
 
-.card-img {
+.landing-card-img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 30px;
 }
 
-.card-img-overlay {
+.landing-card-img-overlay {
     position: absolute;
     top: 75%;
     color: white;
