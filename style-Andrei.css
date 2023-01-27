@@ -55,6 +55,7 @@ a:hover {
 footer {
     margin-top: 20px;
     padding-top: 60px;
+    font-family: light;
 }
 
 /*.row {
@@ -74,7 +75,6 @@ footer {
     align-self: center;
     text-align: left;
     margin-right: 40px;
-    font-family: light;
     font-size: 20px;
     font-weight: 300;
 }
