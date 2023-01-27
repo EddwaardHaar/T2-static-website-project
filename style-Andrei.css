@@ -1,4 +1,4 @@
-.container-fluid {
+.my-class-with-padding {
     padding-left: 58px;
 }
 
@@ -36,6 +36,9 @@ a:hover {
     }
 }
 
+.container {
+    display: flex;
+}
 .nav-link {
     margin-left: 50px;
 }
@@ -54,8 +57,12 @@ footer {
     padding-top: 60px;
 }
 
-.row {
+/*.row {
     display: flex;
+}*/
+
+.columns {
+    justify-content: space-between;
 }
 
 
