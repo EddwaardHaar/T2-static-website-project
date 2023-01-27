@@ -2,6 +2,21 @@
     padding-left: 58px;
 }
 
+.navbar-brand {
+    display: block;
+    width: 395px;
+    height: 103px;
+    background: url(images/LogoBig.png);
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 111px;
+        height: 101px;
+        background: url(images/LogoSmall.png);
+    }
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -9,7 +24,7 @@ a:hover {
 .links {
     margin-right: 40px;
     font-family: light;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 300;
 
 }
@@ -17,7 +32,7 @@ a:hover {
 @media (max-width: 800px) {
     .links {
         font-family: light;
-        font-size: 1rem;
+        font-size: 20px;
     }
 }
 
@@ -34,29 +49,68 @@ a:hover {
     src: url(Roboto/Roboto-Light.ttf);
 }
 
-.footer {
+footer {
     margin-top: 20px;
+    padding-top: 60px;
+}
+
+.row {
+    display: flex;
+}
+
+
+.footer text{
+    max-width: 100%;
 }
 
 .l {
+    align-self: center;
+    text-align: left;
     margin-right: 40px;
     font-family: light;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 300;
 }
 
+.footer-link {
+    margin-left: 5px;
+}
+
+.PM img{
+    max-width: 100%;
+    padding-top: 10px;
+}
+
 .media {
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+  
+ }
+
+.media a {
+   text-decoration: none;
+   margin: 0 5px 0 0;
+   padding-right: 10px;
+   justify-content: left;
 }
 
 h1 {
     font-family: light;
     margin: 0 auto;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 20px;
 }
 
 .textcols {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.benefits { 
+    text-align: left; 
+}
+
+.footer-bottom {
+    padding-top: 40px;
 }
