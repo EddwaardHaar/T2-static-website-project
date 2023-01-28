@@ -36,9 +36,6 @@ a:hover {
     }
 }
 
-.container {
-    display: flex;
-}
 .nav-link {
     margin-left: 50px;
 }
