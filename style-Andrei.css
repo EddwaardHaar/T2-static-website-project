@@ -1,4 +1,4 @@
-.container-fluid {
+.my-class-with-padding {
     padding-left: 58px;
 }
 
@@ -36,6 +36,9 @@ a:hover {
     }
 }
 
+.container {
+    display: flex;
+}
 .nav-link {
     margin-left: 50px;
 }
@@ -52,10 +55,15 @@ a:hover {
 footer {
     margin-top: 20px;
     padding-top: 60px;
+    font-family: light;
 }
 
-.row {
+/*.row {
     display: flex;
+}*/
+
+.columns {
+    justify-content: space-between;
 }
 
 
@@ -67,7 +75,6 @@ footer {
     align-self: center;
     text-align: left;
     margin-right: 40px;
-    font-family: light;
     font-size: 20px;
     font-weight: 300;
 }
@@ -113,4 +120,10 @@ h1 {
 
 .footer-bottom {
     padding-top: 40px;
+    font-size: 13px;
+}
+
+.my-class-row {
+    display: flex;
+    flex-direction: column;
 }
