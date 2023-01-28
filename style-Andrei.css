@@ -120,4 +120,10 @@ h1 {
 
 .footer-bottom {
     padding-top: 40px;
+    font-size: 13px;
+}
+
+.my-class-row {
+    display: flex;
+    flex-direction: column;
 }
