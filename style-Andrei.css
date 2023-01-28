@@ -1,6 +1,6 @@
-.my-class-with-padding {
+/*.my-class-with-padding {
     padding-left: 58px;
-}
+}*/
 
 .navbar-brand {
     display: block;
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .nav-link {
-    margin-left: 50px;
+    margin-left: 14px;
 }
 
 .cart {

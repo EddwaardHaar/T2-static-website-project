@@ -3,6 +3,11 @@ body {
     color: #001F23;
 }
 
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 header, footer {
     background-color: #F8C765;
 }
