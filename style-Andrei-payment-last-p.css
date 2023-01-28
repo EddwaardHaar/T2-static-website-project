@@ -73,8 +73,16 @@ hr{
 
 .pay {
     float: right;
-    background: #275A53;
-    color: #fff;
-    border: none;
+    background-color: #275A53;
+    color: white;
+    width: 250px;
+    height: 85px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+}
 
+.pay a {
+    text-decoration: none;
 }
