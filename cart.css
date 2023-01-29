@@ -59,7 +59,7 @@
 }
 
 hr{
-    border: 1px solid #000000;
+    border: 1px solid #001F23;
 }
 
 /*Contact Form*/
@@ -89,7 +89,7 @@ input, select{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #001F23;
 }
 
 .continue-button{
