@@ -35,8 +35,9 @@ header, footer {
     color: white;
 }
 
-.card-title{
-    
+.card-title-category{
+    padding-left: 40px;
+    padding-top: 15px;
     
 }
 .card-text{
@@ -120,9 +121,9 @@ input.qtyminus { width:25px; height:25px;}
 .des-right{
     margin-left: 50%; 
 }
-@media screen and (max-width: 775) {
-    
-}
+
+
+
 
 
 /*Button colors
