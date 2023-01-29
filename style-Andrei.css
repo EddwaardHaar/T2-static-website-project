@@ -100,20 +100,9 @@ a {
 
 .benefits { 
     text-align: left; 
-    list-style: none
 }
 
 .footer-bottom {
     padding-top: 40px;
     font-size: 13px;
-}
-
-.column {
-    float: left;
-    width: 25%;
-}
-
-.footer-top {
-    display: flex;
-    justify-content: space-between;
 }
