@@ -64,6 +64,10 @@
     <a href="shop.html" class="navbar-brand-my-class" role="button">
       <button class="btn default" href="shop.html">Shop</button>
     </a>
+    <img src="images/Icons/ArrowRight.png" alt="Blog3">
+    <a href="product_page.html" class="navbar-brand-my-class" role="button">
+      <button class="btn default" href="product_page.html">Super coooool skateboard</button>
+    </a>
   </div>
     
     <div class="container gal">
@@ -102,7 +106,8 @@
 
     <div class="row">
 
-      <p class="text-start">Super coooool skateboard <i class="text-end">€100 <del>€200</del></i></p>
+      <p class="text-start fw-bolder fs-4">Super coooool skateboard</p>
+      <p class="text-end fw-bold fs-6 py-3"><i>€100 <del>€200</del></i></p>
       
     </div>
 
@@ -126,10 +131,8 @@
       </div>
 
       <div class="col des-right">
-        <form id='' method='POST' class='quantity' action='#'>
-          <input type='button' value='-' class='qtyminus minus' field='quantity' />
-          <input type='text' name='quantity' value='0' class='qty' />
-          <input type='button' value='+' class='qtyplus plus' field='quantity' />
+        <form action="">
+          <input type="number" id="quantity" name="quantity" min="1" max="10">
         </form>
         <a href="#" class="btn btn-danger btn-circle "><i class="fa-solid fa-shopping-bag fa-md"></i></a>
     </div>
