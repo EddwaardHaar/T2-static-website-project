@@ -23,7 +23,6 @@ a:hover {
 
 .links {
     margin-right: 40px;
-    font-family: light;
     font-size: 20px;
     font-weight: 300;
 
@@ -31,7 +30,6 @@ a:hover {
 
 @media (max-width: 800px) {
     .links {
-        font-family: light;
         font-size: 20px;
     }
 }
@@ -44,25 +42,10 @@ a:hover {
     margin-right: 58px;
 }
 
-@font-face {
-    font-family: light;
-    src: url(Roboto/Roboto-Light.ttf);
-}
-
 footer {
     margin-top: 20px;
-    padding-top: 60px;
-    font-family: light;
+    padding-top: 60px;   
 }
-
-/*.row {
-    display: flex;
-}*/
-
-.columns {
-    justify-content: space-between;
-}
-
 
 .footer text{
     max-width: 100%;
@@ -99,7 +82,6 @@ footer {
 }
 
 h1 {
-    font-family: light;
     margin: 0 auto;
     font-weight: 300;
     font-size: 20px;
@@ -109,6 +91,11 @@ h1 {
     display: flex;
     text-align: left;
     justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #001F23;
 }
 
 .benefits { 

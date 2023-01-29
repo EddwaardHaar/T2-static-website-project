@@ -1,12 +1,12 @@
 
 .container {
-    font-family: light;
     width: 75%;
     max-width: 1800px;
 }
 
 .thumbnail{
     width: 100%;
+    min-width: 375px;
     height: 100%;
     padding-right: 100px;
 }
@@ -83,4 +83,29 @@ hr{
 
 .button-link:hover{
     text-decoration: none;
+}
+
+@media (max-width:576px){
+    .pay{
+        float: left;
+    }
+    .center img{
+        width: 100%;
+    }
+}
+
+/*Thumbnail size fix for responsiveness*/
+@media (max-width:550px){
+    .thumbnail{
+        min-width: 100%;
+    }
+}
+/*Bootstrap md breakpoint*/
+@media (max-width:768px){
+    .thumbnail{
+        padding-right: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

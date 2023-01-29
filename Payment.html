@@ -9,10 +9,11 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-Andrei.css">
+    <link rel="stylesheet" href="cart.css">
     <link rel="stylesheet" href="style-Andrei-payment-last-p.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Skate Shop - Payment</title>
+    <title>Skate Shop - Home Page</title>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
                             <a class="nav-link active" aria-current="page" href="#contacts">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html#about">About&nbsp;Us</a>
+                            <a class="nav-link active" aria-current="page" href="#about">About&nbsp;Us</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav mb-2 mb-lg-0 cart">
@@ -56,71 +57,71 @@
             </div>
         </nav>
     </header>
+    <!--<div class="container-fluid">-->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <a href="index.html"> Main Page </a>
-                <img src="images/Icons/ArrowRight.png" alt="right arrow">
-                <a href="shop.html"> Shop </a>
-                <img src="images/Icons/ArrowRight.png" alt="right arrow">
-                <a href="cart.html"> Cart </a>
-                <img src="images/Icons/ArrowRight.png" alt="right arrow">Payment
-
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p><a href="index.html"> Main Page </a>
+                        <img src="images/Icons/ArrowRight.png" alt="right arrow">
+                        <a href="shop.html"> Shop </a>
+                        <img src="images/Icons/ArrowRight.png" alt="right arrow">
+                        <a href="cart.html"> Cart </a>
+                        <img src="images/Icons/ArrowRight.png" alt="right arrow">Payment
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-6 justify-content-center" style="margin-bottom: 10px;">
-                <img src="images/Product2.png" alt="P2" class="thumbnail">
-            </div>
-            <div class="col-md-6">
-                <div class="prices">
-                    <div class="title">Super cool skateboard</div>
-                    <div class="amount">100€</div>
-                    <br>
-                    <div class="title">Shipping</div>
-                    <div class="amount">5€</div>
-                    <div class="total">
-                        <hr>
-                        <div class="title"><b>Total</b></div>
-                        <div class="amount">105€</div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 justify-content-center">
+                    <img src="images/Product2.png" alt="P2" class="thumbnail">
+                </div>
+                <div class="col-md-6">
+                    <div class="prices">
+                        <div class="title">Super cool skateboard</div>
+                        <div class="amount">100€</div>
                         <br>
-                        <p class="subtext">Including 25,2€ in taxes</p>
+                        <div class="title">Shipping</div>
+                        <div class="amount">5€</div>
+                        <div class="total">
+                            <hr>
+                            <div class="title"><b>Total</b></div>
+                            <div class="amount">105€</div>
+                            <br>
+                            <p class="subtext">Including 25,2€ in taxes</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <hr>
-        <h4>Payment</h4>
-        <div class="container-fluid d-flex h-100 justify-content-center align-items-center p-0">
-            <div class="col-md-6 justify-content-center">
-                <p class="center">Credit card</p>
-                <hr>
+            <hr>
+            <h4>Shipping information</h4>
+            <br>
+            <div class="container-fluid d-flex h-100 text-center justify-content-center align-items-center">
+                <form>
+                    <input type="text" id="phone" name="phone" placeholder="Phone"><br>
+                    <input type="text" id="address" name="Address" placeholder="Ship to"><br>
+                    <select id="methods" name="methods">
+                        <option value="" selected disabled hidden>Shipping method</option>
+                        <option value="pickup">Pickup</option>
+                        <option value="dhl">DHL</option>
+                        <option value="posti">Posti</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-sm-2" style="margin-bottom: 25px; width: 200px; margin-left: 25px;">
+                    <a href="shop.html">
+                        <img src="images/Icons/ArrowLeft.png" alt="left arrow">
+                        Return to shipping
+                    </a>
+                </div>
+                <div class="col-sm-2" style="margin-right: 200px;">
+                    <a href="#" class="button-link">
+                        <div class="pay">Continue to payment</div>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="container-fluid d-flex h-100 justify-content-center align-items-center p-0">
-            <div class="col-md-6 justify-content-center">
-                <p class="center">OR
-                    <img src="images/Icons/PaymentMethods.png" alt="payment" class="center">
-                </p>
-            </div>
-        </div>
-        <div class="row justify-content-between">
-            <div class="col-sm-2" style="margin-bottom: 25px; width: 200px;">
-                <a href="shop.html">
-                    <img src="images/Icons/ArrowLeft.png" alt="left arrow">
-                    Return to shipping
-                </a>
-            </div>
-            <div class="col-sm-2">
-                <a href="" class="button-link">
-                    <div class="pay">
-                        Pay now
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
+    <!--</div>-->
 
     <footer>
         <div class="container text-center">
@@ -200,5 +201,4 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

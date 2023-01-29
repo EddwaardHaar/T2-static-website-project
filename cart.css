@@ -5,6 +5,7 @@
     padding-right: 100px;
 }
 
+/*Thumbnail size fix for responsiveness*/
 @media (max-width:550px){
     .thumbnail{
         min-width: 100%;
@@ -93,9 +94,10 @@ a{
 }
 
 .continue-button{
+    float: right;
     background-color: #275A53;
     color: white;
-    width: 250px;
+    width: 200px;
     height: 85px;
     border-radius: 10px;
     text-align: center;
@@ -105,4 +107,10 @@ a{
 
 .button-link:hover{
     text-decoration: none;
+}
+
+@media (max-width:576px){
+    .continue-button{
+        float: left;
+    }
 }
