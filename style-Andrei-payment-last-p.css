@@ -15,8 +15,9 @@
     margin-top: 25px;
 }
 
-.row a {
+a {
     text-decoration: none;
+    color: #001F23;
 }
 
 .prices {
@@ -63,13 +64,10 @@ hr{
     margin-right: auto;
 }
 
-.relareference {
+.reference {
     position: relative;
 }
 
-.back {
-    float: left;
-}
 
 .pay {
     float: right;
@@ -83,6 +81,6 @@ hr{
     font-size: 20px;
 }
 
-.pay a {
+.button-link:hover{
     text-decoration: none;
 }
