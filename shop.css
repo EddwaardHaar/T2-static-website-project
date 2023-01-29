@@ -1,6 +1,7 @@
 body {
     background-color: #F5F0E3;
     color: #001F23;
+    font-family: Roboto;
 }
 
 header, footer {
@@ -13,6 +14,9 @@ header, footer {
 
 .text-bg-dark{
     background-color: transparent;
+}
+.category{
+    padding-bottom: 2%;
 }
 
 .card{
@@ -46,6 +50,10 @@ header, footer {
     background-color: #fff;
     color: black;
     margin-top: 5%;
+    transition: all 750ms ease;
+}
+.products:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
 .btn{
     --bs-btn-border-radius: 25px;
@@ -57,7 +65,7 @@ header, footer {
     border-radius: 35px;
     font-size: 24px;
     line-height: 1.33;
-    margin-left: 70%;
+    margin-left: 80%;
     margin-top: -55%;
 }
 
@@ -74,6 +82,37 @@ i{
     padding: 0px;
     
 } 
+hr{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.gal{
+    padding-top: 2%;
+    max-width: 500px;
+}
+
+.description{
+    max-width: 1000px;
+}
+
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+
+.form-select{
+    width: 7%;
+    border: none;
+    background-color: transparent;
+}
 /*Button colors
 Green: #275A53
 Red: #E3492B
