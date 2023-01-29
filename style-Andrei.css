@@ -47,15 +47,6 @@ footer {
     padding-top: 60px;   
 }
 
-/*.row {
-    display: flex;
-}*/
-
-.columns {
-    justify-content: space-between;
-}
-
-
 .footer text{
     max-width: 100%;
 }
@@ -102,11 +93,27 @@ h1 {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+    color: #001F23;
+}
+
 .benefits { 
     text-align: left; 
+    list-style: none
 }
 
 .footer-bottom {
     padding-top: 40px;
     font-size: 13px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
 }
