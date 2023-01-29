@@ -29,9 +29,7 @@ header, footer {
     border-radius: 5px;
     padding: 10px;
 }
-.card-body{
 
-}
 
 .text-bg-dark{
     color: white;
@@ -125,7 +123,7 @@ input.qtyminus { width:25px; height:25px;}
 }
 
 
-#quantity{}
+
 /*Button colors
 Green: #275A53
 Red: #E3492B
