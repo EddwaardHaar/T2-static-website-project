@@ -5,4 +5,22 @@ hr {
 
 img {
     max-width: 100%;
-  }
+}
+
+.container {
+    width: 75%;
+    max-width: 1800px;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+button a{
+    color: white !important;
+}
