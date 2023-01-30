@@ -47,7 +47,7 @@ header, footer {
     height: 310px;
     width:  300px;
     background-color: #fff;
-    color: black;
+    color: #001F23;
     margin-top: 5%;
     transition: all 750ms ease;
 }
@@ -92,7 +92,7 @@ hr{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #001F23;
 }
 .gal{
     max-width: 500px;
@@ -111,7 +111,7 @@ input.qtyplus { width:25px; height:25px;}
 input.qtyminus { width:25px; height:25px;}
 
 .form-select{
-    width: 7%;
+    width: 90px;
     border: none;
     background-color: transparent;
 }
@@ -125,7 +125,6 @@ input.qtyminus { width:25px; height:25px;}
     width: 75%;
     max-width: 1800px;
 }
-
 
 
 
