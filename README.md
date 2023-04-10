@@ -2,7 +2,7 @@
 - - - -
 This is a school project. A static skateboarding e-commerce website created by Team 2
 
-##### 17.1.2023 - 30.1.2023
+##### 17.1.2023 (start) - 30.1.2023 (end)
 ### Project timeline
 - 17.1.22 -> project definition
 - 20.1.22 -> layout dedsign done by figma
