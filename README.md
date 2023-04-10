@@ -8,7 +8,7 @@ This is a school project. A static skateboarding e-commerce website created by T
 - 20.1.22 -> layout dedsign done by figma
 - 30.1.22 -> deadline to code and finish the website
 
-#### Description:
+## Description:
 MyEcommerceSite is a static e-commerce website built using HTML, CSS, and Bootstrap. This website showcases products and allows customers to add them to a cart for purchase.
 
 ## Design of layout (wireframes)
