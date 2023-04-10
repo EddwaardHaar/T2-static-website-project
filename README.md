@@ -24,11 +24,6 @@ https://www.figma.com/file/hiO5WhDgT8kKfPMi5cQKwO/Untitled?node-id=0-1
 - Blog page with articles
 - Article page
 
-## Team Members:
-- Peter Harčar
-- Leyla Molnar
-- Andrei Susha
-- Arsenii Shevelev
 
 ## Usage:
 1. Clone the repository to your local machine
@@ -45,6 +40,12 @@ https://www.figma.com/file/hiO5WhDgT8kKfPMi5cQKwO/Untitled?node-id=0-1
 1. Clone the repository to your local machine
 2. Open the `index.html` file in your web browser
 
+## What i learned during this project:
+- implement a website using HTML / CSS according to the relevant standards
+- able to utilize given CSS libraries
+- able to assess customer requirements when considering the technical implementation of the website
+- able to create responsive websites
+
 ## Future Plans:
 - make this website dynamic with php + LAMP 
 
@@ -53,8 +54,14 @@ https://www.figma.com/file/hiO5WhDgT8kKfPMi5cQKwO/Untitled?node-id=0-1
 - Font Awesome (https://fontawesome.com/)
 - Unsplash (https://unsplash.com/) for the product images
 
+## Team Members:
+- Peter Harčar
+- Leyla Molnar
+- Andrei Susha
+- Arsenii Shevelev
+
 ## License:
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-©️2023.
+©️2023
 
