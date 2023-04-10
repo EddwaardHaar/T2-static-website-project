@@ -5,6 +5,7 @@ This is a school project. A static skateboarding e-commerce website created by T
 ##### 17.1.2023 (start) - 30.1.2023 (end)
 ### Project timeline
 - 17.1.23 -> project definition
+- 18.1.23 -> UI, UX day 
 - 20.1.23 -> layout dedsign done by figma
 - 30.1.23 -> deadline to code and finish the website
 
