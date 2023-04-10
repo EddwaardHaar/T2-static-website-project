@@ -44,6 +44,9 @@ https://www.figma.com/file/hiO5WhDgT8kKfPMi5cQKwO/Untitled?node-id=0-1
 1. Clone the repository to your local machine
 2. Open the `index.html` file in your web browser
 
+## Future Plans:
+- make this website dynamic with php + LAMP 
+
 ## Credits:
 - Bootstrap (https://getbootstrap.com/)
 - Font Awesome (https://fontawesome.com/)
@@ -52,4 +55,5 @@ https://www.figma.com/file/hiO5WhDgT8kKfPMi5cQKwO/Untitled?node-id=0-1
 ## License:
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
+©️2023.
 
